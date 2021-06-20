@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/quick-series",
+      "handler": "quick-series.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/quick-series/count",
+      "handler": "quick-series.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/quick-series/:id",
+      "handler": "quick-series.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/quick-series",
+      "handler": "quick-series.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/quick-series/:id",
+      "handler": "quick-series.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/quick-series/:id",
+      "handler": "quick-series.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

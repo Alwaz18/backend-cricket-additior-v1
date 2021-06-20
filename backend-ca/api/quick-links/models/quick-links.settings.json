@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quick_links",
+  "info": {
+    "name": "quick links"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "referring_id": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

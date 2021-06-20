@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "active_series",
+  "info": {
+    "name": "Active Series",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "series_id": {
+      "type": "string"
+    },
+    "artile": {
+      "type": "component",
+      "repeatable": true,
+      "component": "article.posts"
+    },
+    "tag_id": {
+      "type": "string"
+    }
+  }
+}
